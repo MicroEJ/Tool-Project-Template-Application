@@ -6,7 +6,7 @@ group="com.mycompany"
 version="0.1.0-RC"
 
 microej {
-  applicationEntryPoint = "com.mycompany.application.Main"
+  applicationEntryPoint = "com.mycompany.myapplication.Main"
 }
 
 dependencies {
