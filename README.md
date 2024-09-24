@@ -1,3 +1,3 @@
-# Tool-Project-Template-Application
+# Overview
 
-This repository contains a Project Template for an Application.
+This repository contains a Project template for an Application.
