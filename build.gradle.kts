@@ -10,7 +10,7 @@ microej {
 }
 
 dependencies {
-    implementation("ej.api:edc:1.3.5")
+    implementation("ej.api:edc:1.3.6")
 
     //Uncomment the microejVee dependency to set the VEE Port or Kernel to use
     //microejVee("com.mycompany:myvee:1.0.0")
