@@ -10,7 +10,7 @@ microej {
 }
 
 dependencies {
-    implementation("ej.api:edc:1.3.6")
+    implementation("ej.api:edc:1.3.7")
 
     //Uncomment the microejVee dependency to set the VEE Port or Kernel to use
     //microejVee("com.mycompany:myvee:1.0.0")
@@ -23,8 +23,8 @@ testing {
 
          dependencies {
              implementation(project())
-             implementation("ej.api:edc:1.3.5")
-             implementation("ej.library.test:junit:1.7.1")
+             implementation("ej.api:edc:1.3.7")
+             implementation("ej.library.test:junit:1.10.1")
              implementation("org.junit.platform:junit-platform-launcher:1.8.2")
          }
       }
