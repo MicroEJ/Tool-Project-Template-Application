@@ -6,7 +6,10 @@ group="com.mycompany"
 version="0.1.0-RC"
 
 microej {
-  applicationEntryPoint = "com.mycompany.myapplication.Main"
+    applicationEntryPoint = "com.mycompany.myapplication.Main"
+
+    // Uncomment to use "prod" architecture when using a VEE Port (defaults to "eval")
+    // architectureUsage = "prod"
 }
 
 dependencies {
