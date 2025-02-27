@@ -1,5 +1,5 @@
 plugins {
-    id("com.microej.gradle.application") version "1.0.0"
+    id("com.microej.gradle.application") version "1.1.0"
 }
 
 group="com.mycompany"
@@ -29,7 +29,7 @@ testing {
              implementation(project())
              implementation("ej.api:edc:1.3.7")
              implementation("ej.api:bon:1.4.4")
-             implementation("ej.library.test:junit:1.10.1")
+             implementation("ej.library.test:junit:1.11.0")
              implementation("org.junit.platform:junit-platform-launcher:1.8.2")
          }
       }
