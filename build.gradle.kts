@@ -30,7 +30,6 @@ testing {
              implementation("ej.api:edc:1.3.7")
              implementation("ej.api:bon:1.4.4")
              implementation("ej.library.test:junit:1.11.0")
-             implementation("org.junit.platform:junit-platform-launcher:1.8.2")
          }
       }
    }
