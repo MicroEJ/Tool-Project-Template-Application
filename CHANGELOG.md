@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Keep track of upcoming changes here
+
+## [M.m.p] - YYYY-mm-dd
+
+### Changed
+
+- List here changes in existing functionality
+
 ### Added
 
-- Initial version of the Application project.
+- List here the new features.
+
+### Deprecated
+
+- List here soon-to-be removed features.
+
+### Fixed
+
+- List here any bug fixes
+
+### Security
+
+- List here case of vulnerabilities
