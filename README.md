@@ -1,14 +1,14 @@
 # Overview
 
-_Short summary of the project’s purpose and functionality._
+MicroEJ Application: `<NAME>`.
 
 # Usage
 
-_Step-by-step usage instructions for building and running the project._
+Add the following line to your `build.gradle.kts`:
 
 # Requirements
 
-_Libraries, environment setup, OS._
+This library requires the following Foundation Libraries:
 
 # Dependencies
 
