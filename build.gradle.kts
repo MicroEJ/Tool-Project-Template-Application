@@ -1,5 +1,9 @@
 plugins {
     id("com.microej.gradle.application") version "1.7.0"
+
+    // Uncomment this plugin and the spdxSbom block at the end of this file to generate an SBOM in SPDX format
+    // See https://docs.microej.com/en/latest/SDK6UserGuide/generateSbom.html
+    //id("org.spdx.sbom") version "0.12.0"
 }
 
 group="com.mycompany"
@@ -34,3 +38,24 @@ testing {
       }
    }
 }
+
+//Uncomment this block and the org.spdx.sbom plugin above to generate an SBOM in SPDX format,
+//then run "./gradlew spdxSbom". The SBOM files are written under "build/spdx/".
+//See https://docs.microej.com/en/latest/SDK6UserGuide/generateSbom.html
+//spdxSbom {
+//    targets {
+//        create("release") {
+//            configurations.set(listOf("microejSbomClasspath"))
+//
+//            document {
+//                name.set("My Product SBOM")
+//                namespace.set("https://my.company.org/spdx/")
+//                creator.set("Organization: My Company")
+//                packageSupplier.set("Organization: My Company")
+//            }
+//
+//            // Uncomment the line below to ignore SDK 5 modules
+//            //ignoreNonMavenDependencies.set(true)
+//        }
+//    }
+//}
