@@ -1,5 +1,5 @@
 plugins {
-    id("com.microej.gradle.application") version "1.8.0"
+    id("com.microej.gradle.application") version "1.9.0"
 
     // Uncomment this plugin and the spdxSbom block at the end of this file to generate an SBOM in SPDX format
     // See https://docs.microej.com/en/latest/SDK6UserGuide/generateSbom.html
